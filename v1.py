@@ -82,11 +82,11 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('/opt/svm5-bot/logs/svm5.log'),
+        logging.FileHandler('/opt/nexvm-bot/logs/nexvm.log'),
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger("SVM5-BOT")
+logger = logging.getLogger("NEXVM-BOT")
 
 # ==================================================================================================
 #  ⚙️  CONFIGURATION SECTION
