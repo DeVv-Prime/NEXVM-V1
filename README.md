@@ -8,7 +8,7 @@
   [![Discord](https://img.shields.io/badge/Discord-SVM5--BOT-5865F2?logo=discord&logoColor=white)](https://discord.gg)
   [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
   [![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
-  [![GitHub](https://img.shields.io/badge/GitHub-AnkitKing7-181717?logo=github)](https://github.com/AnkitKing7/Svm5-bot)
+  [![GitHub](https://img.shields.io/badge/GitHub-AnkitKing7-181717?logo=github)](https://github.com/DeVv-Prime/nexvm)
 </div>
 
 ## 📋 **Table of Contents**
