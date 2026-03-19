@@ -203,4 +203,4 @@
 
 ### **One-Line Install (Recommended)**
 ```bash
-curl -sSL https://raw.githubusercontent.com/AnkitKing7/Svm5-bot/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/DeVv-Prime/NEXVM-V1/main/install.sh | sudo bash
