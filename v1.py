@@ -73,10 +73,10 @@ def admin_only():
 # ==================================================================================================
 
 # Create logs directory
-os.makedirs('/opt/svm5-bot/logs', exist_ok=True)
-os.makedirs('/opt/svm5-bot/data', exist_ok=True)
-os.makedirs('/opt/svm5-bot/backups', exist_ok=True)
-os.makedirs('/opt/svm5-bot/qr_codes', exist_ok=True)
+os.makedirs('/opt/nexv1-bot/logs', exist_ok=True)
+os.makedirs('/opt/nexv1-bot/data', exist_ok=True)
+os.makedirs('/opt/nexv1-bot/backups', exist_ok=True)
+os.makedirs('/opt/nexv1-bot/qr_codes', exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -95,9 +95,9 @@ logger = logging.getLogger("SVM5-BOT")
 # 🔑 Discord Bot Configuration
 BOT_TOKEN = ""           # Get from Discord Developer Portal
 BOT_PREFIX = "."                                      # Command prefix
-BOT_NAME = "SVM5-BOT"                                 # Bot display name
-BOT_AUTHOR = "Ankit-Dev"                              # Your name
-MAIN_ADMIN_IDS = [1405866008127864852]                # Your Discord User ID
+BOT_NAME = "NEXVM1"                                 # Bot display name
+BOT_AUTHOR = "DeVv-Prime"                              # Your name
+MAIN_ADMIN_IDS = [1372237657207345183]                # Your Discord User ID
 
 # 🖥️ Server Configuration
 DEFAULT_STORAGE_POOL = "default"                      # LXC storage pool
@@ -131,8 +131,8 @@ def get_mac_address():
 MAC_ADDRESS = get_mac_address()
 
 # 💰 UPI Payment Configuration
-UPI_ID = "9892642904@ybl"                            # Your UPI ID
-UPI_NAME = "Ankit-Dev"                                # Your name for UPI
+UPI_ID = "vedant1437@fam"                            # Your UPI ID
+UPI_NAME = "DeVv-Prime"                                # Your name for UPI
 IPV4_PRICE_INR = 50                                   # Price per IPv4 in INR
 
 # 🤖 AI Configuration - UPDATED WORKING MODEL
@@ -140,7 +140,7 @@ AI_API_KEY = "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"
 AI_MODEL = "llama-3.3-70b-versatile"                  # ✅ WORKING MODEL
 
 # 🖼️ Thumbnail URL for embeds
-THUMBNAIL_URL = "https://cdn.discordapp.com/attachments/1429752932756361267/1478323497179807837/1763894084589.jpg"
+THUMBNAIL_URL = "https://images-ext-1.discordapp.net/external/6lAZL5FnvLRPc2KydFlV2yuW8CPj_P7LE0MdcNLhki0/%3Fsize%3D2048/https/cdn.discordapp.com/icons/1478373286684393604/6317df64b495cfcbaf38f12db6bb22c0.webp?format=webp"
 
 # 🔐 License Keys
 VALID_LICENSE_KEYS = [
