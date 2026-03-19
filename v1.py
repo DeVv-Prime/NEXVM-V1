@@ -144,10 +144,10 @@ THUMBNAIL_URL = "https://images-ext-1.discordapp.net/external/6lAZL5FnvLRPc2KydF
 
 # 🔐 License Keys
 VALID_LICENSE_KEYS = [
-    "AnkitDev99$@", 
-    "SVM5-PRO-2025", 
-    "SVM5-ENTERPRISE", 
-    "DEVELOPER-ANKIT",
+    "VantaNodes", 
+    "NEXVM-PRO-2025", 
+    "NEXVM-ENTERPRISE", 
+    "DEVELOPER-Pushkar",
     "PREMIUM-2025",
     "ULTIMATE-2025"
 ]
@@ -202,7 +202,7 @@ OS_OPTIONS = [
 #  🗄️  DATABASE SETUP - FIXED (Connection handling)
 # ==================================================================================================
 
-DATABASE_PATH = '/opt/svm5-bot/data/svm5.db'
+DATABASE_PATH = '/opt/nexvm/data/svm5.db'
 
 def get_db():
     """Get database connection with proper error handling"""
