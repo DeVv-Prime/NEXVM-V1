@@ -75,11 +75,11 @@ COLORS = {
 #  📝  LOGGING SETUP
 # ==================================================================================================
 
-os.makedirs('/opt/svm5-bot/logs', exist_ok=True)
-os.makedirs('/opt/svm5-bot/data', exist_ok=True)
+os.makedirs('/opt/nex-bot/logs', exist_ok=True)
+os.makedirs('/opt/nex-bot/data', exist_ok=True)
 os.makedirs('/opt/svm5-bot/backups', exist_ok=True)
-os.makedirs('/opt/svm5-bot/qr_codes', exist_ok=True)
-os.makedirs('/opt/svm5-bot/nodes', exist_ok=True)
+os.makedirs('/opt/nex-bot/qr_codes', exist_ok=True)
+os.makedirs('/opt/nex-bot/nodes', exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -89,7 +89,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger("SVM5-BOT")
+logger = logging.getLogger("NEXVMV1-BOT")
 
 # ==================================================================================================
 #  ⚙️  CONFIGURATION
@@ -98,7 +98,7 @@ logger = logging.getLogger("SVM5-BOT")
 BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN_HERE"
 BOT_PREFIX = "."
 BOT_NAME = "SVM5-BOT"
-BOT_AUTHOR = "Ankit-Dev"
+BOT_AUTHOR = "DeVv-Prime"
 MAIN_ADMIN_IDS = [1405866008127864852]
 DEFAULT_STORAGE_POOL = "default"
 
@@ -126,10 +126,10 @@ def get_mac_address():
     return "00:00:00:00:00:00"
 
 MAC_ADDRESS = get_mac_address()
-THUMBNAIL_URL = "https://cdn.discordapp.com/attachments/1429752932756361267/1478323497179807837/1763894084589.jpg"
+THUMBNAIL_URL = "https://images-ext-1.discordapp.net/external/6lAZL5FnvLRPc2KydFlV2yuW8CPj_P7LE0MdcNLhki0/%3Fsize%3D2048/https/cdn.discordapp.com/icons/1478373286684393604/6317df64b495cfcbaf38f12db6bb22c0.webp?format=webp"
 
 # License Keys
-VALID_LICENSE_KEYS = ["AnkitDev99$@", "SVM5-PRO-2025", "SVM5-ENTERPRISE", "DEVELOPER-ANKIT"]
+VALID_LICENSE_KEYS = ["Pushkar931222", "NEX5-PRO-2025", "NEX5-ENTERPRISE", "DEVELOPER-ANKIT"]
 
 # ==================================================================================================
 #  🐧  OS OPTIONS - 70+ OPERATING SYSTEMS
