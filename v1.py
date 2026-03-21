@@ -77,7 +77,7 @@ COLORS = {
 
 os.makedirs('/opt/nex-bot/logs', exist_ok=True)
 os.makedirs('/opt/nex-bot/data', exist_ok=True)
-os.makedirs('/opt/svm5-bot/backups', exist_ok=True)
+os.makedirs('/opt/nex-bot/backups', exist_ok=True)
 os.makedirs('/opt/nex-bot/qr_codes', exist_ok=True)
 os.makedirs('/opt/nex-bot/nodes', exist_ok=True)
 
@@ -85,7 +85,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('/opt/svm5-bot/logs/svm5.log'),
+        logging.FileHandler('/opt/nex-bot/logs/svm5.log'),
         logging.StreamHandler()
     ]
 )
@@ -97,7 +97,7 @@ logger = logging.getLogger("NEXVMV1-BOT")
 
 BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN_HERE"
 BOT_PREFIX = "."
-BOT_NAME = "SVM5-BOT"
+BOT_NAME = "NEXVMV1-BOT"
 BOT_AUTHOR = "DeVv-Prime"
 MAIN_ADMIN_IDS = [1405866008127864852]
 DEFAULT_STORAGE_POOL = "default"
